@@ -1,0 +1,51 @@
+.header{
+ border:5px solid grey; 
+text-align:center;
+background-color:black;
+color:white;
+}
+.nav{
+border:5px solid grey;
+background-color:initial;
+color:white;
+}
+
+ul{
+list-style-type:none;
+
+}
+li{
+display:inline;
+}
+a{
+text-decoration:none;
+background-color:black;
+border:5px solid grey;
+}
+.active{
+background-color:black;
+color:grey;
+border:5px solid grey;
+}
+a:hover{
+background-color:white;
+color:red;
+border:5px solid white;
+}
+.details{
+border:5px solid grey;
+}
+.img{
+	float :left;
+}
+.footer{
+border: 5px solid grey;
+background-color:black;
+text-align:center;
+clear:left;
+}
+body{
+	background-image: url(images.jpeg);
+	background-size: cover;
+	color: white;
+}
